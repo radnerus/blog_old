@@ -3,6 +3,7 @@ GEM
   specs:
     addressable (2.4.0)
     colorator (1.1.0)
+    ffi (1.9.14-x64-mingw32)
     ffi (1.9.14-x86-mingw32)
     forwardable-extended (2.6.0)
     jekyll (3.3.0)
@@ -38,6 +39,7 @@ GEM
     sass (3.4.22)
 
 PLATFORMS
+  x64-mingw32
   x86-mingw32
 
 DEPENDENCIES
@@ -45,7 +47,7 @@ DEPENDENCIES
   jekyll-feed (~> 0.6)
 
 RUBY VERSION
-   ruby 2.3.0p0
+   ruby 2.3.1p112
 
 BUNDLED WITH
    1.13.6
