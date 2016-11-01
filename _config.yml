@@ -1,15 +1,16 @@
 title: Radnerus's Blog
 email: surendarandyou@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  My first attempt on creating a blog. Basically to learn the fundamentals of blogging.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  radnerus
+twitter: radnerus93
+github:  radnerus
+facebook: radnerus
+instagram: radneurs
 
 # Build settings
+permalink: /:year/:month/:title/
 markdown: kramdown
 gems:
   - jekyll-feed

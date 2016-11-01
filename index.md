@@ -7,7 +7,9 @@ layout: default
     <p>
           <a href="{{ post.url }}">{{ post.title }}</a>
           <br/>
-            {{ post.date | date: "%-d %B %Y" }}
+
+          {{ post.date | date: "%-d %B %Y" }}
+          {% include image.html%}
           {{ post.excerpt }}
     </p>
   {% endfor %}
