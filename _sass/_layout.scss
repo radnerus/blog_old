@@ -5,8 +5,23 @@ $font : 'BioRhyme', serif;
 }
 
 
-.post {
-  a{
-    color: blue;
+
+a{
+  color: blue;
+  text-decoration: none;
+}
+
+figcaption{
+  font-size: 10px;
+  text-align: center;
+}
+
+.image-container{
+  width: 60%;
+  padding: 5px;
+  align-items: center;
+  img{
+    max-width:100%;
+    max-height:100%;
   }
 }
