@@ -7,7 +7,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter: radnerus93
 github:  radnerus
 facebook: radnerus
-instagram: radneurs
+instagram: radnerus
 
 # Build settings
 permalink: /:year/:month/:title/
