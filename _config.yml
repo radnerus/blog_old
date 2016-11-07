@@ -12,9 +12,12 @@ instagram: radnerus
 # Build settings
 permalink: /:year/:month/:title/
 markdown: kramdown
+paginate: 2
+paginate_path: "/posts/page:num/"
 gems:
   - jekyll-feed
   - jemoji
+  - jekyll-paginate
 exclude:
   - Gemfile
   - Gemfile.lock

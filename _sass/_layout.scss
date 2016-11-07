@@ -1,8 +1,40 @@
 $font : 'BioRhyme', serif;
+$font-sixe : 10px;
 
 * {
   font-family : $font;
 }
+
+header{
+  padding: 1%;
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  background-color: red;
+  height: auto;
+  z-index: 10;
+  .site-title{
+      display: inline;
+  }
+
+  .site-menu{
+    float: right;
+    display: inline;
+    padding-right: 5%;
+  }
+
+  .site-desc{
+    font-size : $font-sixe;
+    font-style: italic;
+  }
+}
+
+.page-content{
+  margin-top: 80px;
+  padding: 1%;
+}
+
+
 
 a{
   color: blue;

@@ -16,7 +16,11 @@ gem "jekyll", "3.3.0"
 # gem "github-pages", group: :jekyll_plugins
 
 # If you have any plugins, put them here!
+#Plugin for Emoji
 gem "jemoji"
+
+#Plugin for pagination
+gem "jekyll-paginate"
 
 group :jekyll_plugins do
    gem "jekyll-feed", "~> 0.6"
